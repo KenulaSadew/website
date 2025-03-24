@@ -75,3 +75,4 @@ watchdog==6.0.0
 streamlit
 streamlit-lottie
 pillow
+requests
