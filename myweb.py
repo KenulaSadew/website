@@ -1,6 +1,6 @@
 
 import streamlit as st
-from streamlit-lottie import st-lottie
+from streamlit_lottie import st_lottie
 from PIL import Image
 import requests
 
