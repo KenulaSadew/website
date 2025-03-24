@@ -76,3 +76,4 @@ streamlit
 streamlit-lottie
 pillow
 requests
+lottie
