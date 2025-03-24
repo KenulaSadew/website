@@ -34,7 +34,7 @@ local_css("style.css")
 lottie_mail = load_lottiemail("https://lottie.host/4b2a2dd7-decf-4def-9299-0134d740ca39/89n9CeLaZZ.json")
 lottie_coding = load_lottieurl("https://lottie.host/e564a336-69ba-43a8-8d74-12e4137c8931/uqsx8KUEEX.json")
 img_contact_form = Image.open("images/maxresdefault.jpg")
-img_lottie_animation = Image.open("images/maxresdefault (1).jpg")
+img_lottie_animation = Image.open("images/myimage.jpg")
 
 # ---- HEADER SECTION ----
 with st.container():
