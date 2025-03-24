@@ -72,4 +72,6 @@ urllib3==2.3.0
 ursina==7.0.0
 virtualenv==20.29.3
 watchdog==6.0.0
+streamlit
 streamlit-lottie
+other-package-name
