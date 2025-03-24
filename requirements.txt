@@ -3,4 +3,4 @@ streamlit
 streamlit_lottie
 pillow
 requests
-lottie
+
