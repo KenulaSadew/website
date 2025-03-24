@@ -27,7 +27,7 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
-local_css("C:/Users/admin/Documents/My projects/my java and python/python/PythonFiles/My web/style")
+local_css("C:/Users/admin/Documents/My projects/my java and python/python/PythonFiles/My web/style/style.css")
 
 
 # ---- LOAD ASSETS ----
