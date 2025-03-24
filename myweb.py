@@ -27,7 +27,7 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
-local_css("PythonFiles/My web/style/style.css")
+local_css("C:\Users\admin\Documents\My projects\my java and python\python\PythonFiles\My web\style")
 
 # ---- LOAD ASSETS ----
 lottie_mail = load_lottiemail("https://lottie.host/4b2a2dd7-decf-4def-9299-0134d740ca39/89n9CeLaZZ.json")
