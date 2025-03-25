@@ -6,6 +6,7 @@ import requests
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="Sign In", page_icon="🔑")
 
 
 def load_lottieurl(url):
@@ -132,7 +133,7 @@ with st.container():
 
 
 # Streamlit Page Configuration
-st.set_page_config(page_title="Sign In", page_icon="🔑")
+
 
 # Sign-In Section
 with st.container():
