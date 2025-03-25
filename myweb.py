@@ -128,7 +128,7 @@ with st.container():
 
 
 # Streamlit Page Configuration
-st.set_page_config(page_title="Sign In", page_icon="🔑")
+
 
 # Sign-In Section
 with st.container():
