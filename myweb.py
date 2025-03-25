@@ -133,26 +133,22 @@ with st.container():
 # Sign-In Section
 with st.container():
     st.write("---")
-    st.header("To Sign In!")
+    st.header("To Sign in!")
     st.write("##")
-
-    # Sign-in Form (HTML)
     sign_in_form = """
-    <form action="https://formsubmit.co/your-email@example.com" method="POST">
+      <form action="https://formsubmit.co/kenulasadew07@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false">
-        <input type="email" name="email" placeholder="Your email" required><br><br>
-        <input type="password" name="password" placeholder="Your password" required><br><br>
-        <input type="password" name="confirm_password" placeholder="Confirm your password" required><br><br>
-        <button type="submit" style="background-color:#4CAF50; color:white; padding:10px 15px; border:none; cursor:pointer;">
-            Sign In
-        </button>
+        <input type="email" name="email" placeholder="Your email" required>
+        <input type="text" name="password" placeholder="Your password" required>
+        <input type="text" name="password" placeholder="Conform Your password" required>
+        <button type="submit">Sign in</button>
     </form>
-    """
 
-    # Layout: Left for form, Right for empty space
-    left_column, right_column = st.columns(2)
+
+"""
+    left_column, right_column =st.columns(2)
     with left_column:
-        st.markdown(sign_in_form, unsafe_allow_html=True)
+        st.markdown(sign_in_form,unsafe_allow_html=True)
     with right_column:
         st.empty()
        
