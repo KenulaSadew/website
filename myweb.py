@@ -122,25 +122,5 @@ with st.container():
     with right_column:
         st_lottie(lottie_mail,height=400,key="mail")
 
-with st.container():
-    st.write("---")
-    st.header("To Sign in!")
-    st.write("##")
-    sign_in_form = """
-      <form action="https://formsubmit.co/kenulasadew07@gmail.com" method="POST">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="email" name="email" placeholder="Your email" required>
-        <input type="text" name="password" placeholder="Your password" required>
-        <input type="text" name="password" placeholder="Conform Your password" required>
-        <button type="submit">Sign in</button>
-    </form>
-
-
-"""
-    left_column, right_column =st.columns(2)
-    with left_column:
-        st.markdown(sign_in_form,unsafe_allow_html=True)
-    with right_column:
-        st.empty()
 
 
