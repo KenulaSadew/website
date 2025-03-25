@@ -20,6 +20,12 @@ def load_lottiemail(url):
         return None
     return r.json()
 
+def load_password(url):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+
 
 # Use local CSS
 def local_css(file_name):
@@ -32,6 +38,7 @@ local_css("style.css")
 
 # ---- LOAD ASSETS ----
 lottie_mail = load_lottiemail("https://lottie.host/4b2a2dd7-decf-4def-9299-0134d740ca39/89n9CeLaZZ.json")
+lottie_password = load_password("https://lottie.host/ec30170b-c131-4eff-a66c-4e3857e8299a/Sq2bbrb5fQ.json")
 lottie_coding = load_lottieurl("https://lottie.host/e564a336-69ba-43a8-8d74-12e4137c8931/uqsx8KUEEX.json")
 img_contact_form = Image.open("mymage.jpg")
 img_lottie_animation = Image.open("myimage.jpg")
@@ -151,7 +158,8 @@ with st.container():
     with left_column:
         st.markdown(sign_in_form, unsafe_allow_html=True)
     with right_column:
-        st.empty()
+        st_lottie(lottie_password,height=400,key="password")
+       
 
 
 
